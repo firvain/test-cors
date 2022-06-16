@@ -1,7 +1,6 @@
 <template>
   <div>
     <input type="text" id="fname" name="fname" v-model="url" />
-    {{ url }}
 
     <button v-if="url" type="button" @click="callApi">Click Me!</button>
 
